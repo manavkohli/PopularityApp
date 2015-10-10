@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+  		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<title>Manav's Awesome Popularity App</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  		<script src="js/global.js"></script>
+  		<script src="js/raphael.js"></script>
+	</head>
+	<body>
+		<div class="title_section">
+			<h1>Manav's Popularity App</h1>
+			Welcome to my app! This <em>super</em> handy tool helps you see how popular someone is. More importantly, it allows you to easily visualize three dimensial data to figure out whether you're actually popular.
+		</div>
+		<div class="description">
+			After extensive research, we identified three variables with the highest correlation to popularity:			 
+			<ol>
+				<li>Number of Facebook friends (x-axis)</li>
+				<li>Daily time (minutes) spent ignoring people (y-axis)</li>
+				<li>Average size of lunch table cohort (radius)</li>
+				
+			</ol>
+		</div>
+
+		
+
+		<div class="form_section">
+			<form action="#">
+			  <div class="form_list">
+			  	<p><label>Number of Facebook friends</label><input type="text" id="ff"></p>
+			    <p><label>Daily time spent ignoring people<input type="text" id="tsip"></p>
+			    <p><label>Average size of lunch table cohort</label><input type="text" id="lm"></p>
+			    <p><input type="submit"></p>
+			  </div>
+			</form>
+		</div>
+
+		<div class="main_section">
+			<div id="graph"></div>
+		</div>
+	</body>
+</html>
